@@ -398,3 +398,15 @@ aside {
 footer {
 	grid-column: 1 / -1;
 }
+
+.author::before {
+	content: open-quote;
+	font-size: 5rem;
+	font-family: sans-serif;
+	position: absolute;
+	left: 1rem;
+}
+
+.author {
+	position: relative;
+}
